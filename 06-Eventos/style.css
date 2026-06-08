@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  color:rgb(161, 0, 75);
+  background-color: rgb(182, 134, 226);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 200px;
+  padding: .8re .5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: .4rem;
+  background-color: mediumseagreen;
+  color: deeppink;
+  box-shadow: 0 4px 0 0 darkorchid;
+  cursor: pointer;
+  transition: all .300s ease;
+
+}
+
+button:hover {
+  background-color: chartreuse;
+  color: crimson;
+  box-shadow: 0 0 0 0;
+}
