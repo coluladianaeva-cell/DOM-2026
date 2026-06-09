@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  color: plum;
+  background-color: khaki;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Click-aqui {
+  padding: .5rem 1rem;
+  border: .8rem;
+  border-radius: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: purple;
+  background-color: rgb(216, 139, 139);
+  cursor: pointer;
+  scale: 1;
+  transition: all .3s ease;
+}
+
+.Click-aqui:hover {
+  background-color: blueviolet;
+  color: firebrick;
+  scale: 1.1;
+}
+
+.Click-aqui:active {
+  scale: .9;
+}
