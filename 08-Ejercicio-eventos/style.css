@@ -1,0 +1,47 @@
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: cornflowerblue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+
+  cursor: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.instrucciones {
+  background-color: lightskyblue;
+  color: deeppink;
+  padding: 24px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 24px 12px cornflowerblue;
+}
+
+.instrucciones p {
+  margin-bottom: 12px;
+}
+
+.instrucciones ul {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.cursor {
+  position: absolute;
+  font-size: 32px;
+}
